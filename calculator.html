@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_calculator.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <main class="main">
+        <div class="margins">
+        <div class="first_line">
+            <button class="clear_all" type="button" onclick="func_clear()">C</button>
+            <input class="vvod" type="tel" placeholder="0">
+        </div>
+        <div class="second_line">
+            <div class="number_7" onclick="func_seven()"><p class="seven">7</p></div>
+            <div class="number_8" onclick="func_eight()"><p class="eight">8</p></div>
+            <div class="number_9" onclick="func_nine()"><p class="nine">9</p></div>
+            <div class="znak_plus" onclick="func_plus()"><p class="plus_text">+</p></div>
+        </div>
+        <div class="third_line">
+            <div class="number_4" onclick="func_four()"><p class="four">4</p></div>
+            <div class="number_5" onclick="func_five()"><p class="five">5</p></div>
+            <div class="number_6" onclick="func_sixth()"><p class="sixth">6</p></div>
+            <div class="znak_-" onclick="func_minus()"><p class="minus_text">-</p></div>
+        </div>
+        <div class="four_line">
+            <div class="number_1" onclick="func_one()"><p class="one">1</p></div>
+            <div class="number_2" onclick="func_two()"><p class="two">2</p></div>
+            <div class="number_3" onclick="func_three()"><p class="three">3</p></div>
+            <div class="znak_x" onclick="func_umn()"><p class="umn_text">*</p></div>
+        </div>
+        <div class="five_line">
+            <div class="number_0" onclick="func_zero()"><p class="zero">0</p></div>
+            <div class="tochka" onclick="func_tochka()"><p class="tochka_text">.</p></div>
+            <div class="znak_rovno" onclick="func_rovno()"><p class="rovno_text">=</p></div>
+            <div class="znak_delenie" onclick="func_delenie()"><p class="delenie_text">/</p></div>
+        </div>
+        </div>
+    </main>
+     <script src="calculator_function.js"></script>
+</body>
+</html>

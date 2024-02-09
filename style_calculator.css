@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: orange;
+}
+.main{
+    width: 680px;
+    height: 600px;
+    background-color: plum;
+    margin-top: 200px;
+    margin-left: 700px;
+    border-radius: 22px;
+    border-bottom: 3px solid  rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 9px 7px -1px rgba(0, 0, 0, 0.75);
+}
+.margins{
+    padding: 30px;
+}
+
+.first_line{
+    display: flex;
+}
+
+.clear_all{
+width: 136px;
+height: 90px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 24px;
+color: aliceblue;
+background-color: brown;
+border-bottom: 3px solid  rgba(0, 0, 0, 0.75);
+box-shadow: 0px 5px 7px -1px rgba(0, 0, 0, 0.75);
+cursor: pointer;
+margin-left: 12px;
+}
+
+.clear_all:active,
+.number_7:active,
+.number_8:active,
+.number_9:active,
+.number_1:active,
+.number_2:active,
+.number_3:active,
+.number_4:active,
+.number_5:active,
+.number_6:active,
+.number_0:active,
+.znak_-:active,
+.znak_plus:active,
+.znak_x:active,
+.tochka:active,
+.znak_rovno:active,
+.znak_delenie:active
+{
+box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.75);
+}
+.vvod{
+    width: 410px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    box-shadow: none;
+}
+
+.second_line{
+    display: flex;
+}
+
+.number_7,
+.number_8,
+.number_9,
+.number_1,
+.number_2,
+.number_3,
+.number_4,
+.number_5,
+.number_6,
+.number_0{
+width: 135px;
+height: 90px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 24px;
+color: aliceblue;
+background-color: rgba(60, 60, 250, 0.6);
+border-bottom: 3px solid  rgba(0, 0, 0, 0.75);
+box-shadow: 0px 5px 7px -1px rgba(0, 0, 0, 0.75);
+cursor: pointer;
+justify-content: center;
+margin-top: 15px;
+margin-left: 13px;
+}
+
+.seven,
+.eight,
+.nine,
+.sixth,
+.five,
+.four,
+.three,
+.two,
+.one,
+.zero{
+margin-top: 30px;
+margin-left: 60px;
+}
+
+.znak_-,
+.znak_plus,
+.znak_x,
+.tochka,
+.znak_rovno,
+.znak_delenie{
+width: 135px;
+height: 90px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 24px;
+color: aliceblue;
+background-color: rgba(94, 94, 168, 1);
+border-bottom: 3px solid  rgba(0, 0, 0, 0.75);
+box-shadow: 0px 5px 7px -1px rgba(0, 0, 0, 0.75);
+cursor: pointer;
+justify-content: center;
+margin-top: 15px;
+margin-left: 13px;
+}
+
+.second_line{
+    display: flex;
+}
+
+.third_line{
+    display: flex;
+}
+
+.four_line{
+    display: flex;
+}
+
+.five_line{
+    display: flex;
+}
+
+.znak_rovno{
+    background-color: orange;
+}
+
+.plus_text,
+.minus_text,
+.umn_text,
+.tochka_text,
+.rovno_text,
+.delenie_text{
+margin-top: 30px;
+margin-left: 60px;
+}
